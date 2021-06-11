@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 75461600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "StepsDef_BankCash.user_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2879409300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDef_BankCash.beforeRun()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should be able login with valid credentials",
+        "description": "",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 660082700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDef_BankCash.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3147691500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 12
+                },
+                {
+                  "val": "abc123",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsDef_BankCash.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3322024100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepsDef_BankCash.user_clicks_singin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18402900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will land on Dashboard page",
+            "match": {
+              "location": "StepsDef_BankCash.user_will_land_on_the_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47827400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on bank and cash",
+            "match": {
+              "location": "StepsDef_BankCash.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 495928100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "StepsDef_BankCash.user_clicks_on_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 404201600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fill up the form entering \"Money Market Account\"and \"Personal\"and \"$ 15,00,000.00\"and \"1345845613\"and \"Mr.Vikani\"and \"459-137-1313\"and \"www.BOA.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Money Market Account",
+                  "offset": 32
+                },
+                {
+                  "val": "Personal",
+                  "offset": 58
+                },
+                {
+                  "val": "$ 15,00,000.00",
+                  "offset": 72
+                },
+                {
+                  "val": "1345845613",
+                  "offset": 92
+                },
+                {
+                  "val": "Mr.Vikani",
+                  "offset": 108
+                },
+                {
+                  "val": "459-137-1313",
+                  "offset": 123
+                },
+                {
+                  "val": "www.BOA.com",
+                  "offset": 141
+                }
+              ],
+              "location": "StepsDef_BankCash.user_fill_up_the_form_entering_and_and_and_and_and_and_and(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 877610900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on submit",
+            "match": {
+              "location": "StepsDef_BankCash.clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to see validate",
+            "match": {
+              "location": "StepsDef_BankCash.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Bank\u0026Chash"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "feature/Bank\u0026Cash.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Bank\u0026Chash"
+      }
+    ]
+  }
+]
